@@ -1,0 +1,39 @@
+{
+  "Serilog": {
+    "Using": [ "Serilog.Sinks.File" ],
+    "MinimumLevel": {
+      "Default": "Debug",
+      "Override": {
+        "Microsoft": "Error",
+        "System": "Debug"
+      }
+    },
+
+    //"MinimumLevel": {
+    //  "Default": "Information",
+    //  "Override": {
+    //    "Microsoft": "Warning",
+    //    "System": "Warning"
+    //  }
+    //},
+
+    "Enrich": [ "FromLogContext", "WithMachineName", "WithProcessId", "WithThreadId" ],
+    "WriteTo": [
+      {
+        "Name": "File",
+        "Args": {
+          "path": "C:\\Web Apis\\Logs\\LoggingWithSerilog\\RestApiLog.log",
+          "outputTemplate": "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz}, [{Level}] [{SourceContext}] [{EventId}] {Message}{NewLine}{Exception}",
+          //"outputTemplate": "{Timestamp} {Message}{NewLine:1}{Exception:1}",
+          "rollOnFileSizeLimit": true,
+          "fileSizeLimitBytes": 4194304,
+          "retainedFileCountLimit": 15,
+          "rollingInterval": "Minute"
+        }
+      }
+    ],
+    "Properties": {
+      "ApplicationName": "Serilog.WebApplication"
+    }
+  }
+}

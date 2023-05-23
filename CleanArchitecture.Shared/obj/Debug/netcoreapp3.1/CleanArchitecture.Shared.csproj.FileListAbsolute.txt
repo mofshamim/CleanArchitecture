@@ -16,3 +16,4 @@ E:\gihub\CleanArchitecture\CleanArchitecture.Shared\obj\Debug\netcoreapp3.1\Clea
 E:\gihub\CleanArchitecture\CleanArchitecture.Shared\obj\Debug\netcoreapp3.1\CleanArchitecture.Shared.csproj.CoreCompileInputs.cache
 E:\gihub\CleanArchitecture\CleanArchitecture.Shared\obj\Debug\netcoreapp3.1\CleanArchitecture.Shared.dll
 E:\gihub\CleanArchitecture\CleanArchitecture.Shared\obj\Debug\netcoreapp3.1\CleanArchitecture.Shared.pdb
+E:\gihub\CleanArchitecture\CleanArchitecture.Shared\obj\Debug\netcoreapp3.1\CleanArchitecture.Shared.csproj.AssemblyReference.cache

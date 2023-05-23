@@ -1,3 +1,6 @@
+using CleanArchitecture.Shared.Constants;
+using CleanArchitecture.Web.CustomMiddlewares;
+using CleanArchitecture.Web.ExtensionMethods;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -23,12 +26,25 @@ namespace CleanArchitecture.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            //services.AddServices();
+            //services.AddMvc(options => options.EnableEndpointRouting = false).AddXmlSerializerFormatters();
+            services.AddDefaultServices(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            //string environment = Configuration["Environment"] ?? "";
+            //if (environment.Equals("dev"))
+            //{
+            //    app.UseDeveloperExceptionPage();
+            //}
+            //else
+            //{
+            //    app.UseExceptionHandler(CommonConstantValue.ErrorUrl);
+            //}
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -39,12 +55,31 @@ namespace CleanArchitecture.Web
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
 
+            //app.UseAuthentication();
             app.UseAuthorization();
+
+            //app.UseSession();
+
+            //app.UseMiddleware<EndRequestMiddleware>();
+
+            //app.UseMvc(routes =>
+            //{
+            //    routes.MapRoute(
+            //        name: "areas",
+            //        template: "{area=exists}/{controller=Home}/{action=Index}/{id?}"
+            //        );
+
+            //    routes.MapRoute(
+            //        name: "default",
+            //        template: "{controller=Home}/{action=Index}/{id?}"
+            //        );
+            //});
 
             app.UseEndpoints(endpoints =>
             {
