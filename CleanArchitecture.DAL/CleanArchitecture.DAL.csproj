@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitecture.Database\CleanArchitecture.Database.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.Infrastructure\CleanArchitecture.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\Concretes\Configuration\" />
+    <Folder Include="Repositories\Concretes\Sms\" />
+    <Folder Include="Repositories\Concretes\Sales\" />
+    <Folder Include="Repositories\Contracts\Configuration\" />
+    <Folder Include="Repositories\Contracts\Sms\" />
+    <Folder Include="Repositories\Contracts\Sales\" />
+  </ItemGroup>
+
+</Project>

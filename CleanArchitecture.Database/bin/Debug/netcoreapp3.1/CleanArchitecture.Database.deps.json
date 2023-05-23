@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CleanArchitecture.Database/1.0.0": {
+        "runtime": {
+          "CleanArchitecture.Database.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CleanArchitecture.Database/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

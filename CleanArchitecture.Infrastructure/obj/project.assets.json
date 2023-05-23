@@ -1,49 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "CleanArchitecture.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "CleanArchitecture.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/CleanArchitecture.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CleanArchitecture.Application.dll": {}
-        }
-      },
-      "CleanArchitecture.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/CleanArchitecture.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CleanArchitecture.Domain.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "CleanArchitecture.Application/1.0.0": {
-      "type": "project",
-      "path": "../CleanArchitecture.Application/CleanArchitecture.Application.csproj",
-      "msbuildProject": "../CleanArchitecture.Application/CleanArchitecture.Application.csproj"
-    },
-    "CleanArchitecture.Domain/1.0.0": {
-      "type": "project",
-      "path": "../CleanArchitecture.Domain/CleanArchitecture.Domain.csproj",
-      "msbuildProject": "../CleanArchitecture.Domain/CleanArchitecture.Domain.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "CleanArchitecture.Application >= 1.0.0",
-      "CleanArchitecture.Domain >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\omarf\\.nuget\\packages\\": {}
@@ -51,34 +13,27 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
+      "projectUniqueName": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
       "projectName": "CleanArchitecture.Infrastructure",
-      "projectPath": "E:\\Project\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
+      "projectPath": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\omarf\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\CleanArchitecture\\CleanArchitecture.Infrastructure\\obj\\",
+      "outputPath": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\omarf\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "projectReferences": {
-            "E:\\Project\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
-              "projectPath": "E:\\Project\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
-            },
-            "E:\\Project\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
-              "projectPath": "E:\\Project\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
-            }
-          }
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -88,8 +43,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",

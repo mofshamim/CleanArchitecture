@@ -1,0 +1,10 @@
+E:\Project\CleanArchitecture.Web\CleanArchitecture.Database\bin\Debug\netcoreapp3.1\CleanArchitecture.Database.deps.json
+E:\Project\CleanArchitecture.Web\CleanArchitecture.Database\bin\Debug\netcoreapp3.1\CleanArchitecture.Database.dll
+E:\Project\CleanArchitecture.Web\CleanArchitecture.Database\bin\Debug\netcoreapp3.1\CleanArchitecture.Database.pdb
+E:\Project\CleanArchitecture.Web\CleanArchitecture.Database\obj\Debug\netcoreapp3.1\CleanArchitecture.Database.csproj.AssemblyReference.cache
+E:\Project\CleanArchitecture.Web\CleanArchitecture.Database\obj\Debug\netcoreapp3.1\CleanArchitecture.Database.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\CleanArchitecture.Web\CleanArchitecture.Database\obj\Debug\netcoreapp3.1\CleanArchitecture.Database.AssemblyInfoInputs.cache
+E:\Project\CleanArchitecture.Web\CleanArchitecture.Database\obj\Debug\netcoreapp3.1\CleanArchitecture.Database.AssemblyInfo.cs
+E:\Project\CleanArchitecture.Web\CleanArchitecture.Database\obj\Debug\netcoreapp3.1\CleanArchitecture.Database.csproj.CoreCompileInputs.cache
+E:\Project\CleanArchitecture.Web\CleanArchitecture.Database\obj\Debug\netcoreapp3.1\CleanArchitecture.Database.dll
+E:\Project\CleanArchitecture.Web\CleanArchitecture.Database\obj\Debug\netcoreapp3.1\CleanArchitecture.Database.pdb

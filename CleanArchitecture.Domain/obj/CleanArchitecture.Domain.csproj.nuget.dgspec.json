@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {}
+    "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {}
   },
   "projects": {
-    "E:\\Project\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+    "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "projectUniqueName": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
         "projectName": "CleanArchitecture.Domain",
-        "projectPath": "E:\\Project\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "projectPath": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
         "packagesPath": "C:\\Users\\omarf\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\CleanArchitecture\\CleanArchitecture.Domain\\obj\\",
+        "outputPath": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\omarf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",

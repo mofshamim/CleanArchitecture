@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DbEntities\Configuration\" />
+    <Folder Include="DbEntities\Sms\" />
+    <Folder Include="DbEntities\Sales\" />
+    <Folder Include="EntityConfigurations\Configuration\" />
+    <Folder Include="EntityConfigurations\Sms\" />
+    <Folder Include="EntityConfigurations\Sales\" />
+    <Folder Include="ServiceExtensions\" />
+    <Folder Include="OpenQueries\" />
+    <Folder Include="NonDbEntities\" />
+  </ItemGroup>
+
+</Project>
