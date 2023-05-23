@@ -1,7 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitecture.Shared\CleanArchitecture.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ExtensionMethods\" />
+    <Folder Include="Hashing\" />
+    <Folder Include="CommonMethods\" />
+    <Folder Include="CommonModels\" />
+    <Folder Include="RequestGateway\" />
+    <Folder Include="ServiceExtensions\" />
+  </ItemGroup>
 
 </Project>

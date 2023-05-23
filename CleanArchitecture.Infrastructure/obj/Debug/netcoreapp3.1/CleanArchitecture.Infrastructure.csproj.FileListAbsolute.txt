@@ -8,3 +8,16 @@ E:\Project\CleanArchitecture.Web\CleanArchitecture.Infrastructure\obj\Debug\netc
 E:\Project\CleanArchitecture.Web\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.csproj.CoreCompileInputs.cache
 E:\Project\CleanArchitecture.Web\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.dll
 E:\Project\CleanArchitecture.Web\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.pdb
+E:\gihub\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.deps.json
+E:\gihub\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.dll
+E:\gihub\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.pdb
+E:\gihub\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.csproj.AssemblyReference.cache
+E:\gihub\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\gihub\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.AssemblyInfoInputs.cache
+E:\gihub\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.AssemblyInfo.cs
+E:\gihub\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.csproj.CoreCompileInputs.cache
+E:\gihub\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.dll
+E:\gihub\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.pdb
+E:\gihub\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\netcoreapp3.1\CleanArchitecture.Shared.dll
+E:\gihub\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\netcoreapp3.1\CleanArchitecture.Shared.pdb
+E:\gihub\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\netcoreapp3.1\CleanArchitecture.Infrastructure.csproj.CopyComplete

@@ -1,11 +1,125 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "CleanArchitecture.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CleanArchitecture.Database": "1.0.0",
+          "CleanArchitecture.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CleanArchitecture.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitecture.DAL.dll": {}
+        }
+      },
+      "CleanArchitecture.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CleanArchitecture.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitecture.Database.dll": {}
+        }
+      },
+      "CleanArchitecture.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CleanArchitecture.DAL": "1.0.0",
+          "CleanArchitecture.Database": "1.0.0",
+          "CleanArchitecture.Infrastructure": "1.0.0",
+          "CleanArchitecture.ServiceConsumer": "1.0.0",
+          "CleanArchitecture.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CleanArchitecture.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitecture.Domain.dll": {}
+        }
+      },
+      "CleanArchitecture.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CleanArchitecture.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CleanArchitecture.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitecture.Infrastructure.dll": {}
+        }
+      },
+      "CleanArchitecture.ServiceConsumer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CleanArchitecture.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CleanArchitecture.ServiceConsumer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitecture.ServiceConsumer.dll": {}
+        }
+      },
+      "CleanArchitecture.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CleanArchitecture.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitecture.Shared.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CleanArchitecture.DAL/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitecture.DAL/CleanArchitecture.DAL.csproj",
+      "msbuildProject": "../CleanArchitecture.DAL/CleanArchitecture.DAL.csproj"
+    },
+    "CleanArchitecture.Database/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitecture.Database/CleanArchitecture.Database.csproj",
+      "msbuildProject": "../CleanArchitecture.Database/CleanArchitecture.Database.csproj"
+    },
+    "CleanArchitecture.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitecture.Domain/CleanArchitecture.Domain.csproj",
+      "msbuildProject": "../CleanArchitecture.Domain/CleanArchitecture.Domain.csproj"
+    },
+    "CleanArchitecture.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitecture.Infrastructure/CleanArchitecture.Infrastructure.csproj",
+      "msbuildProject": "../CleanArchitecture.Infrastructure/CleanArchitecture.Infrastructure.csproj"
+    },
+    "CleanArchitecture.ServiceConsumer/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitecture.ServiceConsumer/CleanArchitecture.ServiceConsumer.csproj",
+      "msbuildProject": "../CleanArchitecture.ServiceConsumer/CleanArchitecture.ServiceConsumer.csproj"
+    },
+    "CleanArchitecture.Shared/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitecture.Shared/CleanArchitecture.Shared.csproj",
+      "msbuildProject": "../CleanArchitecture.Shared/CleanArchitecture.Shared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "CleanArchitecture.DAL >= 1.0.0",
+      "CleanArchitecture.Database >= 1.0.0",
+      "CleanArchitecture.Domain >= 1.0.0",
+      "CleanArchitecture.Shared >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\omarf\\.nuget\\packages\\": {}
@@ -13,11 +127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Web\\CleanArchitecture.Web.csproj",
+      "projectUniqueName": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Web\\CleanArchitecture.Web.csproj",
       "projectName": "CleanArchitecture.Web",
-      "projectPath": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Web\\CleanArchitecture.Web.csproj",
+      "projectPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Web\\CleanArchitecture.Web.csproj",
       "packagesPath": "C:\\Users\\omarf\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Web\\obj\\",
+      "outputPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\omarf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +147,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\gihub\\CleanArchitecture\\CleanArchitecture.DAL\\CleanArchitecture.DAL.csproj": {
+              "projectPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.DAL\\CleanArchitecture.DAL.csproj"
+            },
+            "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Database\\CleanArchitecture.Database.csproj": {
+              "projectPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Database\\CleanArchitecture.Database.csproj"
+            },
+            "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+              "projectPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
+            },
+            "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj": {
+              "projectPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

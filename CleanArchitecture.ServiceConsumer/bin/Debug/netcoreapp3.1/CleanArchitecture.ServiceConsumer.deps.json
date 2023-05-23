@@ -7,14 +7,40 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "CleanArchitecture.ServiceConsumer/1.0.0": {
+        "dependencies": {
+          "CleanArchitecture.Infrastructure": "1.0.0"
+        },
         "runtime": {
           "CleanArchitecture.ServiceConsumer.dll": {}
+        }
+      },
+      "CleanArchitecture.Infrastructure/1.0.0": {
+        "dependencies": {
+          "CleanArchitecture.Shared": "1.0.0"
+        },
+        "runtime": {
+          "CleanArchitecture.Infrastructure.dll": {}
+        }
+      },
+      "CleanArchitecture.Shared/1.0.0": {
+        "runtime": {
+          "CleanArchitecture.Shared.dll": {}
         }
       }
     }
   },
   "libraries": {
     "CleanArchitecture.ServiceConsumer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchitecture.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchitecture.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

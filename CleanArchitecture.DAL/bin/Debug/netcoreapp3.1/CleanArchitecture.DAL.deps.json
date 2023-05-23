@@ -21,8 +21,16 @@
         }
       },
       "CleanArchitecture.Infrastructure/1.0.0": {
+        "dependencies": {
+          "CleanArchitecture.Shared": "1.0.0"
+        },
         "runtime": {
           "CleanArchitecture.Infrastructure.dll": {}
+        }
+      },
+      "CleanArchitecture.Shared/1.0.0": {
+        "runtime": {
+          "CleanArchitecture.Shared.dll": {}
         }
       }
     }
@@ -39,6 +47,11 @@
       "sha512": ""
     },
     "CleanArchitecture.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchitecture.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

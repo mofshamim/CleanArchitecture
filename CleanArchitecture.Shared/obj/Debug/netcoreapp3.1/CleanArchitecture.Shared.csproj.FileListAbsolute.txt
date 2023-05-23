@@ -7,3 +7,12 @@ E:\Project\CleanArchitecture.Web\CleanArchitecture.Shared\obj\Debug\netcoreapp3.
 E:\Project\CleanArchitecture.Web\CleanArchitecture.Shared\obj\Debug\netcoreapp3.1\CleanArchitecture.Shared.csproj.CoreCompileInputs.cache
 E:\Project\CleanArchitecture.Web\CleanArchitecture.Shared\obj\Debug\netcoreapp3.1\CleanArchitecture.Shared.dll
 E:\Project\CleanArchitecture.Web\CleanArchitecture.Shared\obj\Debug\netcoreapp3.1\CleanArchitecture.Shared.pdb
+E:\gihub\CleanArchitecture\CleanArchitecture.Shared\bin\Debug\netcoreapp3.1\CleanArchitecture.Shared.deps.json
+E:\gihub\CleanArchitecture\CleanArchitecture.Shared\bin\Debug\netcoreapp3.1\CleanArchitecture.Shared.dll
+E:\gihub\CleanArchitecture\CleanArchitecture.Shared\bin\Debug\netcoreapp3.1\CleanArchitecture.Shared.pdb
+E:\gihub\CleanArchitecture\CleanArchitecture.Shared\obj\Debug\netcoreapp3.1\CleanArchitecture.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\gihub\CleanArchitecture\CleanArchitecture.Shared\obj\Debug\netcoreapp3.1\CleanArchitecture.Shared.AssemblyInfoInputs.cache
+E:\gihub\CleanArchitecture\CleanArchitecture.Shared\obj\Debug\netcoreapp3.1\CleanArchitecture.Shared.AssemblyInfo.cs
+E:\gihub\CleanArchitecture\CleanArchitecture.Shared\obj\Debug\netcoreapp3.1\CleanArchitecture.Shared.csproj.CoreCompileInputs.cache
+E:\gihub\CleanArchitecture\CleanArchitecture.Shared\obj\Debug\netcoreapp3.1\CleanArchitecture.Shared.dll
+E:\gihub\CleanArchitecture\CleanArchitecture.Shared\obj\Debug\netcoreapp3.1\CleanArchitecture.Shared.pdb

@@ -1,17 +1,133 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.ServiceConsumer\\CleanArchitecture.ServiceConsumer.csproj": {}
+    "E:\\gihub\\CleanArchitecture\\CleanArchitecture.ServiceConsumer\\CleanArchitecture.ServiceConsumer.csproj": {}
   },
   "projects": {
-    "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.ServiceConsumer\\CleanArchitecture.ServiceConsumer.csproj": {
+    "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.ServiceConsumer\\CleanArchitecture.ServiceConsumer.csproj",
-        "projectName": "CleanArchitecture.ServiceConsumer",
-        "projectPath": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.ServiceConsumer\\CleanArchitecture.ServiceConsumer.csproj",
+        "projectUniqueName": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
+        "projectName": "CleanArchitecture.Infrastructure",
+        "projectPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\omarf\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.ServiceConsumer\\obj\\",
+        "outputPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\omarf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj": {
+                "projectPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\gihub\\CleanArchitecture\\CleanArchitecture.ServiceConsumer\\CleanArchitecture.ServiceConsumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.ServiceConsumer\\CleanArchitecture.ServiceConsumer.csproj",
+        "projectName": "CleanArchitecture.ServiceConsumer",
+        "projectPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.ServiceConsumer\\CleanArchitecture.ServiceConsumer.csproj",
+        "packagesPath": "C:\\Users\\omarf\\.nuget\\packages\\",
+        "outputPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.ServiceConsumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\omarf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {
+                "projectPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj",
+        "projectName": "CleanArchitecture.Shared",
+        "projectPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj",
+        "packagesPath": "C:\\Users\\omarf\\.nuget\\packages\\",
+        "outputPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\omarf\\AppData\\Roaming\\NuGet\\NuGet.Config",

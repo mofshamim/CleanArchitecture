@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Database\\CleanArchitecture.Database.csproj": {}
+    "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Database\\CleanArchitecture.Database.csproj": {}
   },
   "projects": {
-    "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Database\\CleanArchitecture.Database.csproj": {
+    "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Database\\CleanArchitecture.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Database\\CleanArchitecture.Database.csproj",
+        "projectUniqueName": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Database\\CleanArchitecture.Database.csproj",
         "projectName": "CleanArchitecture.Database",
-        "projectPath": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Database\\CleanArchitecture.Database.csproj",
+        "projectPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Database\\CleanArchitecture.Database.csproj",
         "packagesPath": "C:\\Users\\omarf\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Database\\obj\\",
+        "outputPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\omarf\\AppData\\Roaming\\NuGet\\NuGet.Config",

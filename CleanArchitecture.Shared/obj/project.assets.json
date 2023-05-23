@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj",
+      "projectUniqueName": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj",
       "projectName": "CleanArchitecture.Shared",
-      "projectPath": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj",
+      "projectPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj",
       "packagesPath": "C:\\Users\\omarf\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Shared\\obj\\",
+      "outputPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\omarf\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,7 +1,29 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitecture.DAL\CleanArchitecture.DAL.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.Database\CleanArchitecture.Database.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.Infrastructure\CleanArchitecture.Infrastructure.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.ServiceConsumer\CleanArchitecture.ServiceConsumer.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.Shared\CleanArchitecture.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\Base\" />
+    <Folder Include="Services\Configuration\Concretes\" />
+    <Folder Include="Services\Configuration\Contracts\" />
+    <Folder Include="Services\Sales\Concretes\" />
+    <Folder Include="Services\Sales\Contracts\" />
+    <Folder Include="Services\Sms\Concretes\" />
+    <Folder Include="Services\Sms\Contracts\" />
+    <Folder Include="Validators\Sales\" />
+    <Folder Include="Validators\Sms\" />
+    <Folder Include="ViewModel\Sales\" />
+    <Folder Include="ViewModel\Sms\" />
+  </ItemGroup>
 
 </Project>

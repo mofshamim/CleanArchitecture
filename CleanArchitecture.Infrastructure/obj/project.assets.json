@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "CleanArchitecture.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CleanArchitecture.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitecture.Shared.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CleanArchitecture.Shared/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitecture.Shared/CleanArchitecture.Shared.csproj",
+      "msbuildProject": "../CleanArchitecture.Shared/CleanArchitecture.Shared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "CleanArchitecture.Shared >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\omarf\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
+      "projectUniqueName": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
       "projectName": "CleanArchitecture.Infrastructure",
-      "projectPath": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
+      "projectPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\omarf\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Infrastructure\\obj\\",
+      "outputPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\omarf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj": {
+              "projectPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Shared\\CleanArchitecture.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

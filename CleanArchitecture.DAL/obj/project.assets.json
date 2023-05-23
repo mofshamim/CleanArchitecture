@@ -15,11 +15,24 @@
       "CleanArchitecture.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CleanArchitecture.Shared": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CleanArchitecture.Infrastructure.dll": {}
         },
         "runtime": {
           "bin/placeholder/CleanArchitecture.Infrastructure.dll": {}
+        }
+      },
+      "CleanArchitecture.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CleanArchitecture.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitecture.Shared.dll": {}
         }
       }
     }
@@ -34,6 +47,11 @@
       "type": "project",
       "path": "../CleanArchitecture.Infrastructure/CleanArchitecture.Infrastructure.csproj",
       "msbuildProject": "../CleanArchitecture.Infrastructure/CleanArchitecture.Infrastructure.csproj"
+    },
+    "CleanArchitecture.Shared/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitecture.Shared/CleanArchitecture.Shared.csproj",
+      "msbuildProject": "../CleanArchitecture.Shared/CleanArchitecture.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -48,11 +66,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.DAL\\CleanArchitecture.DAL.csproj",
+      "projectUniqueName": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.DAL\\CleanArchitecture.DAL.csproj",
       "projectName": "CleanArchitecture.DAL",
-      "projectPath": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.DAL\\CleanArchitecture.DAL.csproj",
+      "projectPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.DAL\\CleanArchitecture.DAL.csproj",
       "packagesPath": "C:\\Users\\omarf\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.DAL\\obj\\",
+      "outputPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\omarf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,11 +87,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Database\\CleanArchitecture.Database.csproj": {
-              "projectPath": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Database\\CleanArchitecture.Database.csproj"
+            "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Database\\CleanArchitecture.Database.csproj": {
+              "projectPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Database\\CleanArchitecture.Database.csproj"
             },
-            "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {
-              "projectPath": "E:\\Project\\CleanArchitecture.Web\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj"
+            "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {
+              "projectPath": "E:\\gihub\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj"
             }
           }
         }

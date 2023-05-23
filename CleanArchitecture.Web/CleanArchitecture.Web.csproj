@@ -4,4 +4,17 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="ExtensionMethods\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="ServiceExtensions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitecture.DAL\CleanArchitecture.DAL.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.Database\CleanArchitecture.Database.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.Domain\CleanArchitecture.Domain.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.Shared\CleanArchitecture.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
